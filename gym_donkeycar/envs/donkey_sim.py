@@ -82,7 +82,7 @@ class DonkeyUnitySimContoller():
 
 class DonkeyUnitySimHandler(IMesgHandler):
 
-    def __init__(self, level, max_cte=5.0, cam_resolution=None):
+    def __init__(self, level, max_cte=10.0, cam_resolution=None):
         self.iSceneToLoad = level
         self.loaded = False
         self.max_cte = max_cte
